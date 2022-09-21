@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display: block;}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+input::-ms-clear{display:none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0; border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit; font-weight:400;}
+
+
+
+@font-face {
+	font-family: 'Days';
+	src: url('../fonts/days.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/days/') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/days.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/days.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/days.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/days.svg#days') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'EirikRaude';
+	src: url('../fonts/eirikraude.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/eirikraude.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/eirikraude.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/eirikraude.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/eirikraude.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/eirikraude.svg#eirikraude') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+
+body{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+
+.wrapper{
+    background-color: #faf2e9;
+    height: auto;
+}
+
+
+.main_photo{
+    width: 350px;
+    height: 380px;
+    margin-top: -2px;
+    margin-left: 60px;
+}
+
+.header__text{
+    font-family: 'Days';
+    font-style: italic;
+
+    font-size: 64px;
+    margin-top: 120px;
+    margin-left: 60px;
+}
+
+.header__row{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+
+.maininfo{
+    
+}
+.maininfo__row{
+    display: flex;
+
+
+}
+.leftpart{
+
+}
+.leftpart__row{
+    display: flex;
+    width: 400px;
+}
+.images__maininfo{
+    margin-left: 60px;
+}
+#first{
+    margin-top: 10px;
+    margin-bottom: 65px;
+}
+#second{
+    margin-bottom: 50px;
+}
+#third{
+    margin-bottom: 60px;
+}
+#forth{
+
+}
+.text__maininfo{
+    font-family: 'EirikRaude';
+    font-size: 24px;
+    margin-left: 15px;
+    
+}
+
+
+.adress{
+    margin-bottom: 20px;
+
+}
+.phone{
+    margin-bottom: 47px;
+}
+.email{
+    margin-bottom: 55px;
+
+}
+.date{
+
+}
+
+
+.rightpart{
+    padding-right: -5px;
+    margin-left: 50px;
+    margin-top: 30px;
+
+}
+.right_text{
+    font-family: 'EirikRaude';
+    font-size: 28px;
+    border: 2px solid black;
+    border-right: none;
+    border-radius: 50% 0 0 50%;
+    border-color: #e8a478;
+    padding-left: 65px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.second_part_row{
+    display: flex;
+}
+.leftpart2{
+    width: 400px;
+    margin-left: 70px;
+
+}
+.line1{
+    position: absolute;
+    margin-left: -40px;
+    margin-top: 60px;
+}
+.line2{
+    position: absolute;
+    margin-left: -41px;
+    margin-top: 145px;
+}
+.title{
+    font-family: 'EirikRaude';
+    font-size: 34px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.subtitle{
+    font-family: 'EirikRaude';
+    font-size: 28px;
+    font-weight: bold;
+    
+}
+.text1{
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+.text2{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 75px;
+
+}
+.text3{
+    font-size: 20px;
+}
+.skills_row{
+    display: flex;
+
+}
+.skills{
+
+}
+.icons{
+    margin-left: 150px;
+}
+#C{
+    margin-top: 10px;
+}
+#CPlus{
+    margin-top: 15px;
+}
+#HTML{
+    margin-top: 15px;
+}
+#Photoshop{
+    margin-top: 15px;
+
+}
+.last_icon{
+   margin-left: 90px;
+}
+
+.rightpart2{
+    margin-left: 70px;
+    padding-right: 20px;
+}
+.languages_row{
+    display: flex;
+}
+.languages{
+
+}
+#ukr{
+    margin-top: 10px;
+    margin-left: 70px;
+}
+#rus{
+    margin-top: 15px;
+    margin-left: 70px;
+}
+#eng{
+    margin-top: 15px;
+    margin-left: 70px;
+}
+.int_img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.qr_img{
+    margin-top: 10px;
+    margin-left: 35%;
+}
